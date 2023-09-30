@@ -1,4 +1,3 @@
-# create unittest for student.py
 import unittest
 
 from student import Student
