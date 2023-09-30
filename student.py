@@ -3,6 +3,5 @@ class Student:
         self.name = name
         self.age = age
     
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
+    def display(self) -> str:
+        return f"{self.name} is {self.age} years old"
